@@ -6,5 +6,25 @@ This paper presents an enhanced framework utilizing deep learning method as an I
 Man-in-the-Middle; ARP flooding; ARP spoofing; Software defined networking; Machine Learning; Internet of Things; Smart Home; Cybersecurity; Intrusion Detection System
 
 ## Dataset :
-Our synthetic dataset comprises 16 features. The dataset includes three label classes: 'normal' (0), 'ARP flood' (1), and 'ARP spoof' (2).
+Our synthetic dataset comprises 16 features:
+| **Feature Name**   | **Description**                                                                 |
+|--------------------|---------------------------------------------------------------------------------|
+| Timestamp          | Captures timing for packet traffic within an SDN network.                       |
+| Datapath_ID        | Uniquely identifies a switch network device.                                    |
+| In_port            | The port on a switch where a packet was received.                               |
+| Out_port           | The port on a switch where a packet should be forwarded.                        |
+| Src_mac            | The MAC address of the source device that originated the packet.                |
+| Dst_mac            | The MAC address of the destination device to which the packet is being sent.    |
+| Src_ip             | The IP (Internet Protocol) address of the source device.                        |
+| Dst_ip             | The IP address of the destination device.                                       |
+| Time_to_live       | Prevents packets from circulating indefinitely in the network.                  |
+| Protocol           | Indicates the protocol used by the packet, such as TCP, UDP, or ICMP.           |
+| Tp_src             | The source port number, typically used in TCP or UDP packets.                   |
+| Tp_dst             | The destination port number, also typically used in TCP or UDP packets.         |
+| Icmpv4_code        | Denotes the code associated with ICMP messages for error reporting or diagnostic purposes. |
+| Icmpv4_type        | Specifies the type of ICMP message being sent, such as echo request or echo reply. |
+| Packet_size_bytes  | Indicates the size of the packet in bytes.                                      |
+| Label              | Tag for normal, ARP flood, and ARP spoof records, where 0 indicates normal, 1 indicates ARP flood attacks, and 2 indicates ARP spoof. |
+
+ The dataset includes three label classes: 'normal' (0), 'ARP flood' (1), and 'ARP spoof' (2).
 
