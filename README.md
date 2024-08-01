@@ -27,4 +27,6 @@ Our synthetic dataset comprises 16 features:
 | Label              | Tag for normal, ARP flood, and ARP spoof records, where 0 indicates normal, 1 indicates ARP flood attacks, and 2 indicates ARP spoof. |
 
  The dataset includes three label classes: 'normal' (0), 'ARP flood' (1), and 'ARP spoof' (2).
+link to Download the dataset:https://drive.google.com/file/d/1rGNPRU77FEasfrq_7BLPhDBgT2d6DZ1Y/view?usp=sharing
+
 
